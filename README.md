@@ -5,3 +5,5 @@ In such cases, a full custom inspector is normally overkill but, by inheriting f
 To hide items from being drawn, simply override GetInvisibleInDefaultInspector, returning a string[] of fields to hide.
 To draw/add extra GUI code/anything else you want before the default inspector is drawn, override OnBeforeDefaultInspector.
 Similarly, override OnAfterDefaultInspector to draw GUI elements after the default inspector is drawn.
+
+![image](https://user-images.githubusercontent.com/60183477/151524315-f564a900-d4fd-42f7-81a8-1cc4a7ae1c98.png)
